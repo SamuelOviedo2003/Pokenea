@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokenea</title>
+    <style>
+        body {
+            text-align: center; /* Alinea el texto y cualquier otro contenido en el centro */
+            margin-top: 50px; /* Añade algo de margen en la parte superior para estética */
+            background-color: #ffe068;
+        }
+        img {
+            box-shadow: 4px 4px 10px rgba(0,0,0,0.5); /* Añade sombreado a la imagen */
+            width: 25%; /* Ajusta el tamaño de la imagen a un 50% del ancho del viewport */
+            height: auto; /* Mantiene la proporción de la imagen */
+            margin-bottom: 20px; /* Espacio entre la imagen y el texto debajo */
+        }
+        p {
+            margin: 10px 0; /* Espacio vertical entre párrafos */
+            font-size: 1.2em; /* Un poco más grande para mejor lectura */
+        }
+    </style>
+</head>
+<body>
+    <img src="{{ image }}" alt="Pokenea Image">
+    <p>{{ phrase }}</p>
+    <p>Container ID: {{ container_id }}</p>
+</body>
+</html>
+
