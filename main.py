@@ -9,7 +9,7 @@ app = Flask(__name__)
 @app.route('/json')
 def json_info():
     pokenea = random.choice(pokeneas)
-    container_id = os.getenv("HOSTNAME", "local")  # HOSTNAME es una variable de entorno común en contenedores
+    container_id = os.getenv("HOSTNAME", "local")  
     return jsonify({
         "id": pokenea["id"],
         "nombre": pokenea["nombre"],
@@ -22,8 +22,7 @@ def json_info():
 def image_and_phrase():
     pokenea = random.choice(pokeneas)
     container_id = os.getenv("HOSTNAME", "local")
-    # Asumiendo que tienes una plantilla `display.html` para mostrar la imagen y la frase
     return render_template('display.html', image=pokenea["imagen"], phrase=pokenea["frase_filosofica"], container_id=container_id)
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(host='0.0.0.0', port=80, debug=True)
