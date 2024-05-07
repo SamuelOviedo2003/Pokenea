@@ -25,4 +25,4 @@ def image_and_phrase():
     return render_template('display.html', image=pokenea["imagen"], phrase=pokenea["frase_filosofica"], container_id=container_id)
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=80, debug=True)
+    app.run(host='0.0.0.0', port=80)
