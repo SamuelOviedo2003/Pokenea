@@ -2,9 +2,9 @@ name: Docker Image CI
 
 on:
   push:
-    branches: [ "master" ]
+    branches: [ master ]
   pull_request:
-    branches: [ "master" ]
+    branches: [ master ]
 
 jobs:
 
@@ -25,3 +25,4 @@ jobs:
       
     - name: Docker Push
       run: docker push soviedop/pokenea_dh
+
