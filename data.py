@@ -5,7 +5,7 @@ pokeneas = [
         "nombre": "Eevee",
         "altura": "0.3 m",
         "habilidad": "Adaptabilidad",
-        "imagen": "https://storage.googleapis.com/pokenea_media/eevee.jpg",
+        "imagen": "https://storage.googleapis.com/pokeneasoviedo/eevee.jpg",
         "frase_filosofica": "La adaptabilidad es la simple respuesta a la supervivencia."
     },
     {
@@ -13,7 +13,7 @@ pokeneas = [
         "nombre": "Grookey",
         "altura": "0.3 m",
         "habilidad": "Espesura",
-        "imagen": "https://storage.googleapis.com/pokenea_media/grookey.jpg",
+        "imagen": "https://storage.googleapis.com/pokeneasoviedo/grookey.jpg",
         "frase_filosofica": "No subestimes el poder de un pequeño brote."
     },
     {
@@ -21,7 +21,7 @@ pokeneas = [
         "nombre": "Litten",
         "altura": "0.4 m",
         "habilidad": "Mar llamas",
-        "imagen": "https://storage.googleapis.com/pokenea_media/litten.jpg",
+        "imagen": "https://storage.googleapis.com/pokeneasoviedo/litten.jpg",
         "frase_filosofica": "Mantén tu llama interna ardiendo."
     },
     {
@@ -29,7 +29,7 @@ pokeneas = [
         "nombre": "Mew",
         "altura": "0.4 m",
         "habilidad": "Sincronía",
-        "imagen": "https://storage.googleapis.com/pokenea_media/mew.jpg",
+        "imagen": "https://storage.googleapis.com/pokeneasoviedo/mew.jpg",
         "frase_filosofica": "Lo imposible es un desafío a pensar más allá."
     },
     {
@@ -37,7 +37,7 @@ pokeneas = [
         "nombre": "Pikachu",
         "altura": "0.4 m",
         "habilidad": "Electricidad estática",
-        "imagen": "https://storage.googleapis.com/pokenea_media/pikachu.jpg",
+        "imagen": "https://storage.googleapis.com/pokeneasoviedo/pikachu.jpg",
         "frase_filosofica": "Pikachuuuuu"
     },
     {
@@ -45,7 +45,7 @@ pokeneas = [
         "nombre": "Psyduck",
         "altura": "0.8 m",
         "habilidad": "Humedad",
-        "imagen": "https://storage.googleapis.com/pokenea_media/psyduck.jpg",
+        "imagen": "https://storage.googleapis.com/pokeneasoviedo/psyduck.jpg",
         "frase_filosofica": "A veces, un poco de confusión es necesario."
     },
     {
@@ -53,7 +53,7 @@ pokeneas = [
         "nombre": "Rowlet",
         "altura": "0.3 m",
         "habilidad": "Espesura",
-        "imagen": "https://storage.googleapis.com/pokenea_media/rowlet.jpg",
+        "imagen": "https://storage.googleapis.com/pokeneasoviedo/rowlet.jpg",
         "frase_filosofica": "Silencioso pero mortalmente eficaz."
     },
     {
@@ -61,7 +61,7 @@ pokeneas = [
         "nombre": "Snorlax",
         "altura": "2.1 m",
         "habilidad": "Inmunidad",
-        "imagen": "https://storage.googleapis.com/pokenea_media/snorlax.jpg",
+        "imagen": "https://storage.googleapis.com/pokeneasoviedo/snorlax.jpg",
         "frase_filosofica": "El descanso también es una forma de preparación."
     }
 ]
